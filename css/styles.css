@@ -1,0 +1,45 @@
+/*
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
+*/
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.navbar {
+    /*border-bottom: solid 5px #0764e8;*/
+}
+
+.bg-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #6f42c1 0%, #4582EC 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #6f42c1 0%,#4582EC 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #6f42c1 0%,#4582EC 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.decorative-divider {
+    display: block;
+    position: relative;
+    z-index: 0;
+    height: 6rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .display-text {
+        font-size: 40px;
+    }
+
+    .big-logo {
+        display: none;
+    }
+}
