@@ -1,5 +1,3 @@
-feather = require('feather.min.js');
-
 $(function() {
   feather.replace();
   var currentTab = location.pathname;
