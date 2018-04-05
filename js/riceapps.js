@@ -1,5 +1,4 @@
 $(function() {
-  feather.replace();
   var currentTab = location.pathname;
   $('.nav-item').each(function() {
     var navlink = $(this).find('.nav-link');
