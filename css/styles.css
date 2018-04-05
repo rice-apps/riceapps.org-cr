@@ -43,3 +43,14 @@ body {
         display: none;
     }
 }
+
+.project-card {
+    transform: translateZ(0);
+    transition: all 0.5s;
+    box-shadow: none;
+}
+
+.project-card:hover {
+    transform: translateZ(8px);
+    box-shadow: 0 10px 30px rgba(100,100,100,0.1);
+}
